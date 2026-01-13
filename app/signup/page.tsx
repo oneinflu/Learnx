@@ -96,7 +96,7 @@ export default function SignupPage() {
       <div className="mx-auto flex min-h-screen max-w-5xl flex-col items-center justify-center px-6 py-12">
         <div className="mb-8 flex items-center gap-3">
           <div className="h-8 w-8 rounded-md bg-zinc-900 dark:bg-zinc-50" />
-          <span className="text-xl font-semibold">SaaS Platform</span>
+          <span className="text-xl font-semibold">LearnX</span>
         </div>
 
         <div className="w-full max-w-xl rounded-xl border border-zinc-200 bg-white shadow-sm dark:border-zinc-800 dark:bg-zinc-900">

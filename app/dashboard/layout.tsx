@@ -125,15 +125,15 @@ export default function DashboardLayout({
               : "flex h-screen w-64 flex-col border-r border-zinc-200 bg-white dark:border-zinc-800 dark:bg-zinc-900"
           }
         >
-          <div className="flex h-14 items-center justify-between px-4">
-            <div className="flex items-center gap-2">
-              <div className="h-7 w-7 rounded-md bg-zinc-900 dark:bg-zinc-50" />
-              {!collapsed && <span className="text-sm font-semibold">SaaS Platform</span>}
-            </div>
-            <button
-              aria-label="Toggle sidebar"
-              onClick={() => setCollapsed((c) => !c)}
-              className="inline-flex h-8 w-8 items-center justify-center rounded-md border border-zinc-300 bg-white text-zinc-900 transition hover:bg-zinc-50 dark:border-zinc-700 dark:bg-zinc-900 dark:text-zinc-100 dark:hover:bg-zinc-800"
+            <div className="flex h-14 items-center justify-between px-4">
+              <div className="flex items-center gap-2">
+                <div className="h-7 w-7 rounded-md bg-zinc-900 dark:bg-zinc-50" />
+                {!collapsed && <span className="text-sm font-semibold">LearnX</span>}
+              </div>
+              <button
+                aria-label="Toggle sidebar"
+                onClick={() => setCollapsed((c) => !c)}
+                className="inline-flex h-8 w-8 items-center justify-center rounded-md border border-zinc-300 bg-white text-zinc-900 transition hover:bg-zinc-50 dark:border-zinc-700 dark:bg-zinc-900 dark:text-zinc-100 dark:hover:bg-zinc-800"
             >
               <span className="sr-only">Toggle</span>
               <svg viewBox="0 0 24 24" className="h-4 w-4" fill="none">

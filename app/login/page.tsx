@@ -40,7 +40,7 @@ export default function LoginPage() {
           <div className="w-full max-w-md">
             <div className="mb-10 flex items-center gap-3">
               <div className="h-8 w-8 rounded-md bg-zinc-900 dark:bg-zinc-50" />
-              <span className="text-xl font-semibold">SaaS Platform</span>
+              <span className="text-xl font-semibold">LearnX</span>
             </div>
             <h2 className="text-3xl font-semibold leading-tight tracking-tight">
               Launch premium courses with commerce and community built in
